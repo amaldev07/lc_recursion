@@ -1,3 +1,5 @@
+// 1155. Number of Dice Rolls With Target Sum
+// https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/
 function numRollsToTarget(n, k, target) {
     let count = recFaces('', target, k, n, 0);
     return count;
